@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3.12
 RUN apt update && apt upgrade -y
 RUN apt install git pip curl python3-pip -y
 

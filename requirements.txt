@@ -1,7 +1,7 @@
 pytz
 pyrogram==2.0.84
 tgcrypto
-sqlalchemy
+sqlalchemy==2.0.36
 psycopg2-binary
 feedparser
 psycopg2

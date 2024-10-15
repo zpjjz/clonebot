@@ -7,3 +7,4 @@ services:
     restart: on-failure
     ports:
       - "81:81"
+      - "5437:5432"
