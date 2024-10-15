@@ -4,6 +4,8 @@ from sqlalchemy import create_engine
 from sqlalchemy import Column, Boolean, Numeric
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
+from sqlalchemy.dialects import postgresql
+
 
 clone_cancel_key = {}       # Clone cancel status key
 clone_btn_count = {}        # Clone button single click actuator key
